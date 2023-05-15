@@ -1,0 +1,54 @@
+.Wrap {
+  overflow-x: hidden;
+}
+#header {
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .gnb ul {
+  display: flex;
+}
+main {
+  height: 100vh;
+  background-color: rgba(0, 102, 178, 0.3);
+}
+
+main .inner {
+  display: flex;
+  gap: 30px;
+
+  width: 1600px;
+  margin: 0 auto;
+}
+main .inner .left_box {
+  width: 100%;
+}
+main .inner .right_box {
+  width: 100%;
+}
+.tit_box {
+  font-size: 20px;
+  font-weight: 700;
+}
+.tit_box h2 {
+  margin: 20px 0;
+}
+main .inner .in_left_box {
+  background: #fff;
+
+  width: 100%;
+  height: calc(100vh - 100px);
+  border-radius: 1rem;
+  padding: 20px;
+}
+
+main .inner .in_right_box {
+  background: #fff;
+
+  width: 100%;
+  height: calc(100vh - 100px);
+  border-radius: 1rem;
+  padding: 20px;
+}
