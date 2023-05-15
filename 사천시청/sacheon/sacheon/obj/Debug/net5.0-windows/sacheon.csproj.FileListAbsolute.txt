@@ -1,0 +1,58 @@
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.Form1.resources
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csproj.GenerateResource.cache
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.AssemblyInfo.cs
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.exe
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.deps.json
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.runtimeconfig.json
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.runtimeconfig.dev.json
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\ref\sacheon.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.pdb
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.dll
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\ref\sacheon.dll
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.pdb
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.genruntimeconfig.cache
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csproj.CopyComplete
+C:\Users\user\source\repos\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.dll.config
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.Properties.Resources.resources
+C:\Users\user\source\repos\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.exe
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.dll.config
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.deps.json
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.runtimeconfig.json
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.runtimeconfig.dev.json
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\ref\sacheon.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\sacheon.pdb
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csprojAssemblyReference.cache
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.Form1.resources
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.Properties.Resources.resources
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csproj.GenerateResource.cache
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.AssemblyInfo.cs
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.csproj.CopyComplete
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\ref\sacheon.dll
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.pdb
+C:\Users\user\Desktop\제이솔루션\Signage Management System\사천시청\sacheon\sacheon\obj\Debug\net5.0-windows\sacheon.genruntimeconfig.cache

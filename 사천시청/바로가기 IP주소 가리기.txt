@@ -1,0 +1,4 @@
+Chrome 바로가기 만들기 - 속성 - 대상(T) 주소 끝에 
+--app=http://121.145.189.40:8080/sacheon/main.do 추가
+
+--kiosk[http://121.145.189.40:8080/sacheon/main.do] 추가

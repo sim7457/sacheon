@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상황판</title>
+    <style>
+        .clear{content: ''; display: block; clear: both;}
+        a { text-decoration: none; color: black; }
+        a:visited { text-decoration: none; }
+        a:hover { text-decoration: none; }
+        a:focus { text-decoration: none; }
+        a:hover, a:active { text-decoration: none; }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+        *{  
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            background-color: #e9ecf5;
+        }
+        .top{
+            width: 100%;
+            height: 120px;
+            background-color: #1b7abd;
+            position: relative;
+        }
+
+        .logo{
+            background: url(logo.png) no-repeat center;
+            width: 100px;
+            height: 81px;
+            position: absolute;
+            top: 20px;
+            left: 40px;
+        }
+
+        .main_title{
+            font-size: 60px;
+            color: #fff;
+            margin-left: 157px;
+            padding-top: 10px;
+            letter-spacing: -5px;
+            font-weight: 400;
+        }
+        .sub_title{
+            position: absolute;
+            top: 26px;
+            right: 40px;
+            font-size: 40px;
+            color: #fff;
+            letter-spacing: -2px;
+            font-weight: 400;
+        }
+
+        .all_wrap01{
+            width: 100%;
+            height: 320px;
+            padding-left: 40px;
+            padding-top: 60px;
+            padding-bottom: 35px;
+        }
+
+        .all_wrap02{
+            padding-left: 40px;
+        }
+
+        .box01{
+            background-color:#0d4099;
+            width: 430px;
+            height: 320px;
+            border-radius: 30px;
+            position: relative;
+            float: left;
+            margin-right: 35px;
+            position: relative;
+        }
+
+        .inner_box01, .inner_box02, .inner_box03, .inner_box04, .inner_box05, .inner_box06, .inner_box07{
+            width: 405px;
+            height: 188px;
+            background-color: #fff;
+            border-radius: 20px;
+            margin: 0 auto;
+            position: absolute;
+            top: 120px;
+            left: 12px;
+        }
+
+        .left_box{
+            float: left;
+            width: 180px;
+            height: 70px;
+            background-color: #dbe1f3;
+            border-radius: 10px;
+            position: absolute;
+            top: 105px;
+            left: 15px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 65px;
+        }
+
+        .right_box{
+            float: left;
+            width: 180px;
+            height: 70px;
+            background-color: #dbe1f3;
+            border-radius: 10px;
+            position: absolute;
+            top: 105px;
+            right: 15px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 65px;
+        }
+
+        .left_box_txt, .right_box_txt{
+            font-weight: 500 ;
+        }
+        .left_box_color{
+            color: #00a5e8;
+            font-weight: 500;
+        }
+        .right_box_color{
+            color: #ee382c;
+            font-weight: 500;
+        }
+
+        .inner_txt01, .inner_txt03, .inner_txt04, .inner_txt05, .inner_txt06, .inner_txt07{
+            color: #222222;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 65px;
+            font-weight: 500;
+        }
+
+        .inner_txt02{
+            color: #222222;
+            text-align: center;
+            margin-top: 2px;
+            font-size: 65px;
+            font-weight: 500;
+        }
+
+        .icon01{
+            width: 84px;
+            height: 64px;
+            position: absolute;
+            top: 25px;
+            left: 91px;
+            background: url(icon01.png) no-repeat center;
+        }
+        .icon02{
+            width: 84px;
+            height: 64px;
+            position: absolute;
+            top: 25px;
+            left: 100px;
+            background: url(icon02.png) no-repeat center;
+        }
+        .icon03{
+            width: 84px;
+            height: 64px;
+            position: absolute;
+            top: 30px;
+            left: 48px;
+            background: url(icon03.png) no-repeat center;
+        }
+        .icon04{
+            width: 84px;
+            height: 64px;
+            position: absolute;
+            top: 31px;
+            left: 10px;
+            background: url(icon04.png) no-repeat center;
+        }
+        .icon05{
+            width: 84px;
+            height: 64px;
+            position: absolute;
+            top: 25px;
+            left: 91px;
+            background: url(icon05.png) no-repeat center;
+        }
+
+       .icon06{
+            width: 84px;
+            height: 64px;
+            position: absolute;
+            top: 25px;
+            left: 104px;
+            background: url(icon06.png) no-repeat center;
+        }
+
+        .icon07{
+            width: 84px;
+            height: 64px;
+            position: absolute;
+            top: 35px;
+            left: 12px;
+            background: url(icon07.png) no-repeat center;
+        }
+
+        .box01_txt, .box02_txt, .box05_txt, .box06_txt{
+            font-size: 65px;
+            color: #fff;
+            font-weight: 500;
+            position: absolute;
+            top: 9px;
+            left: 180px;
+        }
+        .box03_txt{
+            font-size: 65px;
+            color: #fff;
+            font-weight: 500;
+            position: absolute;
+            top: 9px;
+            left: 128px;
+        }
+        .box04_txt, .box07_txt{
+            font-size: 65px;
+            color: #fff;
+            font-weight: 500;
+            position: absolute;
+            top: 10px;
+            left: 86px;
+        }
+
+        .icon01, .box01_txt{
+            float: left;
+        }
+
+        .box02{
+            background-color:#146ead;
+            width: 430px;
+            height: 320px;
+            border-radius: 30px;
+            position: relative;
+            float: left;
+            margin-right: 35px;  
+        }
+
+
+        .box03{
+            background-color:#0d4099;
+            width: 430px;
+            height: 320px;
+            border-radius: 30px;
+            position: relative;
+            float: left;
+            margin-right: 35px;
+        }
+
+        .box04{
+            background-color:#146ead;
+            width: 430px;
+            height: 320px;
+            border-radius: 30px;
+            position: relative;
+            float: left;
+        }
+
+        .box05{
+            background-color:#0d4099;
+            width: 430px;
+            height: 320px;
+            border-radius: 30px;
+            position: relative;
+            float: left;
+            margin-right: 35px;
+        }
+
+        .box06{
+            background-color:#146ead;
+            width: 430px;
+            height: 320px;
+            border-radius: 30px;
+            position: relative;
+            float: left;
+            margin-right: 35px;
+        }
+
+        .box07{
+            background-color:#0d4099;
+            width: 430px;
+            height: 320px;
+            border-radius: 30px;
+            position: relative;
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="logo"></div>
+        <p class="main_title">용현면 상황판</p>
+        <p class="sub_title">2021.11.16(화) 10:49</p>
+    </div><!--top-->
+
+    <div class="content">
+        <div class="all_wrap01 clear">
+            <div class="box01">
+                <div class="inner_wrap01">
+                    <div class="icon01"></div>
+                    <p class="box01_txt">풍향</p>
+                    <div class="inner_box01">
+                        <p class="inner_txt01">9℃</p>
+                    </div><!--inner_box01-->
+                </div><!--inner_wrap01-->
+            </div><!--box01-->
+
+            <div class="box02">
+                <div class="inner_wrap02">
+                    <div class="icon02"></div>
+                    <p class="box02_txt">기온</p>
+                    <div class="inner_box02">
+                        <p class="inner_txt02">9℃</p>
+                        <div class="left_wrap">
+                            <div class="left_box">
+                                <p class="left_box_txt">최저 <span class="left_box_color">-1℃</span></p>
+                            </div><!--left_box-->
+                            <div class="right_box">
+                                <p class="right_box_txt">최고 <span class="right_box_color">9℃</span></p>
+                            </div><!--right_box-->
+                        </div>
+                    </div><!--inner_box01-->
+                </div>
+            </div><!--box01-->
+
+            <div class="box03">
+                <div class="inner_wrap03">
+                    <div class="icon03"></div>
+                    <p class="box03_txt">강수유무</p>
+                    <div class="inner_box03">
+                        <p class="inner_txt03">-</p>
+                    </div><!--inner_box01-->
+                </div>
+            </div><!--box01-->
+
+            <div class="box04">
+                <div class="inner_wrap04">
+                    <div class="icon04"></div>
+                    <p class="box04_txt">금일 강수량</p>
+                    <div class="inner_box04">
+                        <p class="inner_txt04">-</p>
+                    </div><!--inner_box01-->
+                </div>
+            </div><!--box01-->
+        </div><!--box_wrap01-->
+
+        <div class="all_wrap02">
+            <div class="box05">
+                <div class="inner_wrap05">
+                    <div class="icon05"></div>
+                    <p class="box05_txt">풍속</p>
+                    <div class="inner_box05">
+                        <p class="inner_txt05">-</p>
+                    </div><!--inner_box01-->
+                </div><!--inner_wrap01-->
+            </div><!--box05-->
+
+            <div class="box06">
+                <div class="inner_wrap06">
+                    <div class="icon06"></div>
+                    <p class="box06_txt">습도</p>
+                    <div class="inner_box06">
+                        <p class="inner_txt06">60%</p>
+                    </div><!--inner_box01-->
+                </div><!--inner_wrap01-->
+            </div><!--box05-->
+
+            <div class="box07">
+                <div class="inner_wrap07">
+                    <div class="icon07"></div>
+                    <p class="box07_txt">전일 강수량</p>
+                    <div class="inner_box07">
+                        <p class="inner_txt07">2.6mm</p>
+                    </div><!--inner_box01-->
+                </div><!--inner_wrap01-->
+            </div><!--box05-->
+        </div><!--all_wrap02-->
+    </div><!--content-->
+</body>
+</html>
