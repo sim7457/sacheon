@@ -327,6 +327,11 @@ main .inner .in_right_box {
   background: #fff;
   color: #000;
 }
+#popup .pop_tit_box .pop_save {
+  margin-left: 80px;
+  background: #1e6fb7;
+  border: 1px solid #1e6fb7;
+}
 
 #popup .pop_content {
   width: 100%;
