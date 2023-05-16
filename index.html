@@ -140,7 +140,7 @@
                 <h2>콘텐츠 목록</h2>
               </div>
               <div class="menu_box">
-                <button>파일 업로드</button>
+                <button id="openPopup">파일 업로드</button>
                 <button>긴급 컨텐츠</button>
                 <button>저장</button>
                 <button>삭제</button>
@@ -194,6 +194,26 @@
             </div>
           </div>
         </div>
+
+        <!-- 파일 업로드 팝업창  -->
+        <div id="popup" style="display: none">
+          <div class="pop_inner">
+            <div class="pop_tit_box">
+              <h3>파일 업로드</h3>
+              <button id="closePopup">취소</button>
+            </div>
+            <div class="pop_content">
+              <div class="con_inner">
+                <img src="./img/file.png" alt="" />
+                <p>여기에 파일을 드래그하세요.</p>
+                <p>(파일 형식 : jpg,mp4)</p>
+                <p>또는</p>
+                <button class="my_pc">내 컴퓨터에서 파일 선택</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 파일 업로드 팝업창  -->
       </main>
       <!-- main -->
       <!-- footer -->

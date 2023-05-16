@@ -70,6 +70,7 @@ main .inner .left_box .top_menu img {
 }
 main .inner .left_box .in_left_box {
   position: relative;
+  height: auto;
 }
 .mid_box {
   position: relative;
@@ -255,14 +256,18 @@ main .inner .in_right_box {
   height: calc(100vh - 220px);
   border-radius: 1rem;
   padding: 20px;
+
+  height: auto;
 }
+/* right_box */
+/* main */
 
 /* table */
 #DataTable {
   width: 100%;
 
   border: 1px solid #ddd;
-  height: 710px;
+  height: 734px;
 
   border-radius: 1rem;
   border-collapse: separate;
@@ -278,5 +283,88 @@ main .inner .in_right_box {
 #DataTable thead tr th:last-child {
   border-right: none;
 }
-/* right_box */
-/* main */
+/* table */
+
+/* 파일 업로드 팝업 */
+#popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  z-index: 999;
+  border: 1px solid #ddd;
+
+  box-shadow: 0px 0px 21px 3px rgba(65, 65, 65, 0.54);
+}
+#popup .pop_tit_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#popup .pop_tit_box h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#popup .pop_tit_box button {
+  border-radius: 1rem;
+  border: 1px solid #ee5430;
+  background: #e02d1b;
+  padding: 8px 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#popup .pop_tit_box button:hover {
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #000;
+}
+
+#popup .pop_content {
+  width: 100%;
+  height: 390px;
+
+  border: 2px dashed #ddd;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+#popup .pop_content .con_inner {
+  margin-top: 50px;
+}
+#popup .pop_content .con_inner img {
+  width: 50px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+#popup .pop_content .con_inner p {
+  margin-bottom: 10px;
+}
+#popup .pop_content .con_inner p:nth-child(4) {
+  margin: 30px 0;
+}
+#popup .pop_content .con_inner .my_pc {
+  border-radius: 1rem;
+  outline: none;
+  background: #1e6fb7;
+  color: #fff;
+  padding: 12px 15px;
+  border: 1px solid #1e6fb7;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#popup .pop_content .con_inner .my_pc:hover {
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #000;
+}
+/* 파일 업로드 팝업 */

@@ -26,4 +26,13 @@ $(function () {
   $("#next_v2").on("click", function () {
     $(".intro_slick").slick("slickNext");
   });
+
+  $("#openPopup").on("click", function () {
+    $("#popup").show(); // 팝업 보이기
+  });
+
+  // 팝업 닫기 버튼 클릭 이벤트
+  $("#closePopup").on("click", function () {
+    $("#popup").hide(); // 팝업 숨기기
+  });
 });
