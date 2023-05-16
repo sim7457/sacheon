@@ -45,6 +45,26 @@
   background: #fff;
   color: #000;
 }
+/* 다단메뉴 */
+#header .inner .gnb .menu_hover {
+  position: relative;
+}
+
+#header .inner .gnb ul li .submenu {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+
+  height: auto;
+  border-radius: 1rem;
+  background: #1e6fb7;
+  color: #fff;
+}
+#header .inner .gnb ul > li:hover .submenu {
+  display: block;
+}
+/* 다단메뉴 */
 /* header */
 /* main */
 main {
