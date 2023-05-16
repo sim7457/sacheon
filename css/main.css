@@ -119,22 +119,7 @@ main .inner .left_box .in_left_box .mid_menu .menu_slick .sl_box {
 main .inner .left_box .in_left_box .mid_menu .menu_slick .slick-list {
   padding: -20px -10px;
 }
-main .inner .left_box .in_left_box #prev_v2 {
-  position: absolute;
-  top: 87%;
-  left: 20px;
-  z-index: 999;
-  border: none;
-  background: inherit;
-}
-main .inner .left_box .in_left_box #next_v2 {
-  position: absolute;
-  top: 87%;
-  right: 20px;
-  z-index: 999;
-  border: none;
-  background: inherit;
-}
+
 /* 기본 슬릭설정 */
 /* main .inner .left_box .in_left_box .mid_menu .menu_slick .slick-arrow {
   position: absolute;
@@ -162,6 +147,25 @@ main .inner .left_box .in_left_box .mid_menu .menu_slick .slick-next {
   background: url(../img/arrw-nxt-b.png) no-repeat center;
   border: none;
 } */
+.footer_box {
+  position: relative;
+}
+main .inner .left_box .in_left_box #prev_v2 {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 999;
+  border: none;
+  background: inherit;
+}
+main .inner .left_box .in_left_box #next_v2 {
+  position: absolute;
+  bottom: 40%;
+  right: 0;
+  z-index: 999;
+  border: none;
+  background: inherit;
+}
 main .inner .left_box .in_left_box .footer_menu {
   width: 750px;
   margin-left: 30px;
