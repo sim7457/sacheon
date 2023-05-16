@@ -81,6 +81,7 @@ main .inner .left_box .in_left_box #prev {
   z-index: 999;
   border: none;
   background: inherit;
+  cursor: pointer;
 }
 main .inner .left_box .in_left_box #next {
   position: absolute;
@@ -89,6 +90,7 @@ main .inner .left_box .in_left_box #next {
   z-index: 999;
   border: none;
   background: inherit;
+  cursor: pointer;
 }
 main .inner .left_box .in_left_box .mid_menu {
   width: 750px;
@@ -160,6 +162,7 @@ main .inner .left_box .in_left_box #prev_v2 {
   z-index: 999;
   border: none;
   background: inherit;
+  cursor: pointer;
 }
 main .inner .left_box .in_left_box #next_v2 {
   position: absolute;
@@ -168,6 +171,7 @@ main .inner .left_box .in_left_box #next_v2 {
   z-index: 999;
   border: none;
   background: inherit;
+  cursor: pointer;
 }
 main .inner .left_box .in_left_box .footer_menu {
   width: 750px;
@@ -251,6 +255,28 @@ main .inner .in_right_box {
   height: calc(100vh - 220px);
   border-radius: 1rem;
   padding: 20px;
+}
+
+/* table */
+#DataTable {
+  width: 100%;
+
+  border: 1px solid #ddd;
+  height: 710px;
+
+  border-radius: 1rem;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+#DataTable thead {
+  line-height: 60px;
+}
+#DataTable thead tr th {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+#DataTable thead tr th:last-child {
+  border-right: none;
 }
 /* right_box */
 /* main */

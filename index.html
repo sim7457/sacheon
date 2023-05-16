@@ -18,12 +18,15 @@
   </head>
   <body>
     <div class="Wrap">
+      <!-- header -->
       <header id="header">
         <div class="inner">
           <div class="logo_box">
-            <h1>
-              <img src="./img/logo.png" alt="" />
-            </h1>
+            <a href="/">
+              <h1>
+                <img src="./img/logo.png" alt="" />
+              </h1>
+            </a>
           </div>
           <div class="gnb">
             <ul>
@@ -39,6 +42,8 @@
           </div>
         </div>
       </header>
+      <!-- header -->
+      <!-- main -->
       <main>
         <div class="inner">
           <div class="left_box">
@@ -142,12 +147,58 @@
               </div>
             </div>
             <div class="in_right_box">
-              <div class="right_inner_box">테이블 작업장소</div>
+              <div class="right_inner_box">
+                <table id="DataTable">
+                  <colgroup>
+                    <col width="50" />
+                    <col width="*" />
+                    <col width="*" />
+                    <col width="*" />
+                    <col width="*" />
+                    <col width="*" />
+                    <col width="*" />
+                    <col width="*" />
+                    <col width="*" />
+                    <col width="*" />
+                  </colgroup>
+
+                  <thead>
+                    <tr>
+                      <th style="display: none">콘텐츠 코드</th>
+                      <th>
+                        <input
+                          type="checkbox"
+                          onclick="h_chk_change(this, 'DataTable')"
+                        />
+                      </th>
+                      <th>순번</th>
+                      <th>파일명</th>
+                      <th>영역구분</th>
+                      <th>시작날짜</th>
+                      <th>종료날짜</th>
+                      <th>시작시간</th>
+                      <th>종료시간</th>
+                      <th>노출시간</th>
+                      <th>사용여부</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="10" style="text-align: center">
+                        해당 데이터가 없습니다.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </main>
+      <!-- main -->
+      <!-- footer -->
       <footer id="footer"></footer>
+      <!-- footer -->
     </div>
   </body>
 </html>
